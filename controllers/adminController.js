@@ -26,8 +26,7 @@ module.exports = {
         res.redirect("/admin/dashboard");
       }
     } catch (error) {
-      console.log(error);
-      res.redirect("/admin/signin");
+     
     }
   },
   actionSignin: async (req, res) => {
@@ -53,7 +52,6 @@ module.exports = {
 
       res.redirect("/admin/dashboard");
     } catch (error) {
-      res.redirect("/admin/signin");
     }
   },
 

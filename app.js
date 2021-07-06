@@ -7,8 +7,13 @@ const methodOverride = require("method-override");
 const session = require("express-session");
 const flash = require("connect-flash");
 
+var app = express();
 // import mongoose
 const mongoose = require("mongoose");
+
+const cors = require("cors");
+app.use(cors())
+
 mongoose.connect(
   "mongodb+srv://ridorachmatan:apaanaja123@cluster0.4dk7p.mongodb.net/db_innywhere?retryWrites=true&w=majority",
   {
@@ -25,7 +30,7 @@ var usersRouter = require("./routes/users");
 const adminRouter = require("./routes/admin");
 const apiRouter = require("./routes/api");
 
-var app = express();
+
 
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
