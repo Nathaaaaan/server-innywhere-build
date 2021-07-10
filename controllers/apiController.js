@@ -95,68 +95,69 @@ module.exports = {
       accountHolder,
       bankFrom,
     } = req.body;
-   
-      if (!req.file) {
-        res.status(404).json({ message: "Image not found" });
-      }
-      if (
-        idItem === undefined ||
-        duration === undefined ||
-        // price === undefined ||
-        bookingStartDate === undefined ||
-        bookingEndDate === undefined ||
-        firstName === undefined ||
-        lastName === undefined ||
-        email === undefined ||
-        phoneNumber === undefined ||
-        accountHolder === undefined ||
-        bankFrom === undefined
-      ) {
-        res.status(404).json({ message: "Fill out the blank fields" });
-      }
 
-      const item = await Item.findOne({ _id: idItem });
+    if (!req.file) {
+      res.status(404).json({ message: "Image not found" });
+    }
+    if (
+      idItem === undefined ||
+      duration === undefined ||
+      // price === undefined ||
+      bookingStartDate === undefined ||
+      bookingEndDate === undefined ||
+      firstName === undefined ||
+      lastName === undefined ||
+      email === undefined ||
+      phoneNumber === undefined ||
+      accountHolder === undefined ||
+      bankFrom === undefined
+    ) {
+      res.status(404).json({ message: "Fill out the blank fields" });
+    }
 
-      if (!item) {
-        return res.status(404).json({ message: "Item not found" });
-      }
+    const item = await Item.findOne({ _id: idItem });
 
-      item.sumBooking += 1;
+    if (!item) {
+      return res.status(404).json({ message: "Item not found" });
+    }
 
-      await item.save();
+    item.sumBooking += 1;
 
-      let total = item.price * duration;
-      let tax = total * 0.10;
+    await item.save();
 
-      const invoice = Math.floor(1000000 + Math.random() * 9000000);
+    let total = item.price * duration;
+    let tax = total * 0.1;
 
-    const member = await Member.create({  
+    const invoice = Math.floor(1000000 + Math.random() * 9000000);
+
+    const member = await Member.create({
       firstName,
       lastName,
       email,
-      phoneNumber
-    }
-      );
+      phoneNumber,
+    });
 
-      const newBooking = {
-        invoice,
-        bookingStartDate,
-        bookingEndDate,
-        total: total += tax,
-        itemId: {
-          _id: item.id,
-          title: item.title,
-          price: item.price,
-          duration: duration,
-        },
-        memberId: member.id,
-        payments: {
-          proofPayment: `images/${req.file.filename}`,
-          bankFrom: bankFrom,
-          accountHolder: accountHolder,
-        },
-      };
-      const booking = await Booking.create(newBooking);
-      res.status(201).json({ message: "Successfully booked, please wait a moment!", booking });
+    const newBooking = {
+      invoice,
+      bookingStartDate,
+      bookingEndDate,
+      total: (total += tax),
+      itemId: {
+        _id: item.id,
+        title: item.title,
+        price: item.price,
+        duration: duration,
+      },
+      memberId: member.id,
+      payments: {
+        proofPayment: `images/${req.file.filename}`,
+        bankFrom: bankFrom,
+        accountHolder: accountHolder,
+      },
+    };
+    const booking = await Booking.create(newBooking);
+    res
+      .status(201)
+      .json({ message: "Successfully booked, please wait a moment!", booking });
   },
 };
