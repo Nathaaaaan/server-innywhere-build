@@ -1,7 +1,7 @@
 <!-- DataTales Example -->
 <div class="card shadow mb-4 mt-2">
   <div class="card-header py-3">
-    <a href="/admin/booking" class="btn btn-warning">Back</a>
+    <a href="/admin/booking" class="btn btn-warning">Kembali</a>
   </div>
 
   <div class="card-body">
@@ -21,7 +21,7 @@
           >
             <button type="submit" href="" class="btn btn-success btn-sm">
               <i class="fas fa-check"></i>
-              Confirmation
+              Terima
             </button>
           </form>
           <form
@@ -31,7 +31,7 @@
           >
             <button type="submit" href="" class="btn btn-danger btn-sm">
               <i class="fas fa-times"></i>
-              Reject
+              Tolak
             </button>
           </form>
          <% } %>
@@ -47,10 +47,10 @@
           >
             <thead>
               <tr>
-                <th>Name</th>
-                <th>Total Amount</th>
+                <th>Nama</th>
+                <th>Jumlah Transfer</th>
                 <th>Bank</th>
-                <th>Homestay Name</th>
+                <th>Nama Homestay</th>
               </tr>
             </thead>
             <tbody>
@@ -59,7 +59,7 @@
                   <%= booking.memberId.firstName %> <%=
                   booking.memberId.lastName %>
                 </td>
-                <td>$<%= booking.total %></td>
+                <td>Rp. <%= booking.total %></td>
                 <td><%= booking.payments.bankFrom %></td>
                 <td><%= booking.itemId.title %></td>
               </tr>

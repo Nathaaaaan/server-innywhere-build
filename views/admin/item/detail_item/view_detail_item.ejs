@@ -14,9 +14,9 @@
         <%- include('../../../partials/message.ejs') %>
 
         <!-- Page Heading -->
-        <h1 class="h3 mb-4 text-gray-800">Detail Item</h1> 
+        <h1 class="h3 mb-4 text-gray-800">Detail Item</h1>
         <!-- End Heading -->
-        
+
         <!-- Navs -->
         <ul class="nav nav-tabs" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
@@ -28,7 +28,7 @@
               role="tab"
               aria-controls="home"
               aria-selected="true"
-              >Show Feature</a
+              >Tampilkan Fasilitas</a
             >
           </li>
           <li class="nav-item" role="presentation">
@@ -40,18 +40,15 @@
               role="tab"
               aria-controls="profile"
               aria-selected="false"
-              >Show Activity</a
+              >Tampilkan Aktivitas</a
             >
           </li>
         </ul>
 
         <div class="tab-content" id="myTabContent">
-  <%- include('show_feature.ejs') %>
-  <%- include('show_activity.ejs') %>
+          <%- include('show_feature.ejs') %> <%- include('show_activity.ejs') %>
         </div>
         <!-- End Navs -->
-        
-
       </div>
       <!-- /.container-fluid -->
     </div>
@@ -102,17 +99,15 @@
   </div>
 </div>
 
-<%- include('show_modal_activity.ejs') %>
-<%- include('show_modal_feature.ejs') %>
-
-<%- include('../../../partials/js.ejs') %>
+<%- include('show_modal_activity.ejs') %> <%- include('show_modal_feature.ejs')
+%> <%- include('../../../partials/js.ejs') %>
 <script>
-$(document).ready(function(){
-  $('#dataTableActivity').DataTable();
-})
+  $(document).ready(function () {
+    $("#dataTableActivity").DataTable();
+  });
   CKEDITOR.replace("about");
 
-    $("#dataTableActivity").on("click", ".button-update", function () {
+  $("#dataTableActivity").on("click", ".button-update", function () {
     let id = $(this).data("id");
     let name = $(this).data("name");
     let type = $(this).data("type");
@@ -121,7 +116,7 @@ $(document).ready(function(){
     $(".name").val(name);
     $(".qty").val(qty);
   });
-    $("#dataTable").on("click", ".button-update", function () {
+  $("#dataTable").on("click", ".button-update", function () {
     let id = $(this).data("id");
     let name = $(this).data("name");
     let qty = $(this).data("qty");
