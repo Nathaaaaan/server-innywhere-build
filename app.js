@@ -15,7 +15,7 @@ const cors = require("cors");
 app.use(cors())
 
 mongoose.connect(
-  "mongodb+srv://ridorachmatan:apaanaja123@cluster0.4dk7p.mongodb.net/db_innywhere?retryWrites=true&w=majority",
+  "mongodb+srv://innywherebuild:apaanaja123@cluster0.la0r0.mongodb.net/db_innywhere?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

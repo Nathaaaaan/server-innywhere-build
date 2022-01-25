@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 
 // Connect to MongoDB via Mongoose
 seeder.connect(
-  "mongodb+srv://ridorachmatan:apaanaja123@cluster0.4dk7p.mongodb.net/db_innywhere?retryWrites=true&w=majority",
+  "mongodb+srv://innywherebuild:apaanaja123@cluster0.la0r0.mongodb.net/db_innywhere?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useCreateIndex: true,
@@ -55,7 +55,7 @@ var data = [
     'documents': [
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc901111'),
-        name: 'Houses with beauty backyard',
+        name: 'Jakarta',
         itemId: [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902222') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902223') },
@@ -65,7 +65,7 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc901112'),
-        name: 'Hotels with large living room',
+        name: 'Bandung',
         itemId: [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902226') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902227') },
@@ -75,7 +75,7 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId('5e96cbe292b97300fc901113'),
-        name: 'Apartment with kitchen',
+        name: 'Serang',
         itemId: [
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902230') },
           { _id: mongoose.Types.ObjectId('5e96cbe292b97300fc902231') },
