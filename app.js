@@ -12,7 +12,7 @@ var app = express();
 const mongoose = require("mongoose");
 
 const cors = require("cors");
-app.use(cors())
+app.use(cors());
 
 mongoose.connect(
   "mongodb+srv://innywherebuild:apaanaja123@cluster0.la0r0.mongodb.net/db_innywhere?retryWrites=true&w=majority",
@@ -30,8 +30,6 @@ var usersRouter = require("./routes/users");
 const adminRouter = require("./routes/admin");
 const apiRouter = require("./routes/api");
 
-
-
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
@@ -41,7 +39,7 @@ app.use(
     secret: "keyboard cat",
     resave: false,
     saveUninitialized: true,
-    cookie: { maxAge: 3600000000 },
+    cookie: { maxAge: 9600000000 },
   })
 );
 app.use(flash());
