@@ -65,7 +65,7 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc901112"),
-        name: "Bandung",
+        name: "Bogor",
         itemId: [
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902226") },
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902227") },
@@ -75,7 +75,7 @@ var data = [
       },
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc901113"),
-        name: "Serang",
+        name: "Yogyakarta",
         itemId: [
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902230") },
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902231") },
@@ -141,13 +141,13 @@ var data = [
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
         title: "Seattle Rain",
-        price: 20,
+        price: 450000,
         sumBooking: 2,
         country: "Indonesia",
         city: "Bandung",
         isPopular: false,
         description:
-          "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+          "Berlokasi di Desa Mekarrahayu, dekat dengan kampung Kampung Adat Mahmud memiliki pernanan yang besar untuk masyarakat Bandung di masa lalu. Nilai historis dari kampung ini adalah sejarah pekembangan dan persebaran agama Islam. Kesederhanaan segera terasa begitu masuk ke kampung ini. Tidak seperti lokasi wisata lain yang selalu hingar bingar, tidak banyak wisatawan yang datang. Namun wisatawan yang datang ke sana bisa mempelajari sejarah Islam, yaitu tentang Eyang Dalem Abdul Manaf yang disebut-sebut sebagai tokoh utama penyebar agama Islam di kawasan tersebut.",
         unit: "malam",
         imageId: [
           // done
@@ -188,7 +188,7 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902224"),
         title: "Wodden Pit",
-        price: 20,
+        price: 300000,
         sumBooking: 3,
         country: "Indonesia",
         city: "Bandung",
@@ -235,7 +235,7 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902225"),
         title: "Anggana",
-        price: 20,
+        price: 270000,
         sumBooking: 4,
         country: "Indonesia",
         city: "Bandung",
@@ -285,10 +285,10 @@ var data = [
         price: 250000,
         sumBooking: 5,
         country: "Indonesia",
-        city: "Bandung",
+        city: "Bogor",
         isPopular: false,
         description:
-          "Berlokasi di Desa Mekarrahayu, dekat dengan kampung Kampung Adat Mahmud memiliki pernanan yang besar untuk masyarakat Bandung di masa lalu. Nilai historis dari kampung ini adalah sejarah pekembangan dan persebaran agama Islam. Kesederhanaan segera terasa begitu masuk ke kampung ini. Tidak seperti lokasi wisata lain yang selalu hingar bingar, tidak banyak wisatawan yang datang. Namun wisatawan yang datang ke sana bisa mempelajari sejarah Islam, yaitu tentang Eyang Dalem Abdul Manaf yang disebut-sebut sebagai tokoh utama penyebar agama Islam di kawasan tersebut.",
+          "Berlokasi di Bogor, Jawa Barat. Dekat dengan Taman Safari Indonesia, terdapat wisata alam menarik di sekitar homestay seperti curug dan pemandian air panas ",
         unit: "malam",
         imageId: [
           // done
@@ -329,10 +329,10 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902227"),
         title: "Podo Wae",
-        price: 20,
+        price: 19000,
         sumBooking: 6,
         country: "Indonesia",
-        city: "Bandung",
+        city: "Bogor",
         isPopular: false,
         description:
           "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
@@ -376,10 +376,10 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902228"),
         title: "Silver Rain",
-        price: 20,
+        price: 300000,
         sumBooking: 7,
         country: "Indonesia",
-        city: "Bandung",
+        city: "Bogor",
         isPopular: false,
         description:
           "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
@@ -423,10 +423,10 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902229"),
         title: "Cashville",
-        price: 20,
+        price: 260000,
         sumBooking: 8,
         country: "Indonesia",
-        city: "Bandung",
+        city: "Bogor",
         isPopular: false,
         description:
           "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
@@ -470,10 +470,10 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902230"),
         title: "PS Wood",
-        price: 20,
+        price: 320000,
         sumBooking: 9,
         country: "Indonesia",
-        city: "Bandung",
+        city: "Yogyakarta",
         isPopular: false,
         description:
           "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
@@ -517,10 +517,10 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902231"),
         title: "One Five",
-        price: 20,
+        price: 500000,
         sumBooking: 11,
         country: "Indonesia",
-        city: "Bandung",
+        city: "Yogyakarta",
         isPopular: false,
         description:
           "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
@@ -564,10 +564,10 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902232"),
         title: "Minimal",
-        price: 20,
+        price: 480000,
         sumBooking: 13,
         country: "Indonesia",
-        city: "Bandung",
+        city: "Yogyakarta",
         isPopular: false,
         description:
           "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
@@ -611,10 +611,10 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902233"),
         title: "Stays Home",
-        price: 20,
+        price: 220000,
         sumBooking: 14,
         country: "Indonesia",
-        city: "Bandung",
+        city: "Yogyakarta",
         isPopular: false,
         description:
           "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
