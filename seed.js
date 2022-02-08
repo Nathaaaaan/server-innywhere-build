@@ -93,7 +93,7 @@ var data = [
       // Tabby Town
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
-        title: "Rido's House",
+        title: "Fani's House",
         price: 200000,
         sumBooking: 1,
         country: "Indonesia",
