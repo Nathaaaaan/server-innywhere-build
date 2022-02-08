@@ -55,7 +55,7 @@ var data = [
     documents: [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc901111"),
-        name: "Jakarta",
+        name: "Bandung",
         itemId: [
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902222") },
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902223") },
@@ -97,10 +97,10 @@ var data = [
         price: 200000,
         sumBooking: 1,
         country: "Indonesia",
-        city: "Lampung",
+        city: "Bandung",
         isPopular: false,
         description:
-          "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+          "Kami berlokasi di Cibeunying Kidul berdekatan dengan wisata budaya Saung Angklung Mang Udjo. Tersedia dua kamar tidur dan satu kamar mandi, nikmati liburan yang menarik dengan mempelajari bagaimana cara memainkan angklung dan melihat proses pembuatannya.",
         unit: "malam",
         imageId: [
           // done
@@ -281,14 +281,14 @@ var data = [
       // Green Park
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902226"),
-        title: "Green Park",
-        price: 20,
+        title: "Homestay Bougenville",
+        price: 250000,
         sumBooking: 5,
         country: "Indonesia",
         city: "Bandung",
         isPopular: false,
         description:
-          "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+          "Berlokasi di Desa Mekarrahayu, dekat dengan kampung Kampung Adat Mahmud memiliki pernanan yang besar untuk masyarakat Bandung di masa lalu. Nilai historis dari kampung ini adalah sejarah pekembangan dan persebaran agama Islam. Kesederhanaan segera terasa begitu masuk ke kampung ini. Tidak seperti lokasi wisata lain yang selalu hingar bingar, tidak banyak wisatawan yang datang. Namun wisatawan yang datang ke sana bisa mempelajari sejarah Islam, yaitu tentang Eyang Dalem Abdul Manaf yang disebut-sebut sebagai tokoh utama penyebar agama Islam di kawasan tersebut.",
         unit: "malam",
         imageId: [
           // done
@@ -820,7 +820,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa01"),
-        name: "bedroom",
+        name: "kamar",
         qty: 2,
         imageUrl: "images/feature-1.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
@@ -828,24 +828,24 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa02"),
-        name: "living room",
-        qty: 23,
+        name: "ruang tamu",
+        qty: 1,
         imageUrl: "images/feature-2.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa03"),
-        name: "televison",
-        qty: 12,
+        name: "meja",
+        qty: 2,
         imageUrl: "images/feature-3.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa04"),
-        name: "televison",
-        qty: 5,
+        name: "toilet",
+        qty: 1,
         imageUrl: "images/feature-4.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
@@ -860,16 +860,16 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa06"),
-        name: "unit ready",
-        qty: 5,
+        name: "aircon",
+        qty: 1,
         imageUrl: "images/feature-6.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa07"),
-        name: "refigrator",
-        qty: 5,
+        name: "kulkas",
+        qty: 1,
         imageUrl: "images/feature-7.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
@@ -877,7 +877,7 @@ var data = [
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa08"),
         name: "televisi",
-        qty: 5,
+        qty: 1,
         imageUrl: "images/feature-8.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902222"),
       },
@@ -885,7 +885,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa09"),
-        name: "bedroom",
+        name: "kamar",
         qty: 2,
         imageUrl: "images/feature-1.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
@@ -893,24 +893,24 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa10"),
-        name: "living room",
-        qty: 23,
+        name: "ruang tamu",
+        qty: 1,
         imageUrl: "images/feature-2.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa11"),
-        name: "televison",
-        qty: 12,
+        name: "meja",
+        qty: 1,
         imageUrl: "images/feature-3.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa12"),
-        name: "televison",
-        qty: 5,
+        name: "toilet",
+        qty: 1,
         imageUrl: "images/feature-4.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
@@ -925,24 +925,24 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa14"),
-        name: "unit ready",
-        qty: 5,
+        name: "aircon",
+        qty: 1,
         imageUrl: "images/feature-6.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa15"),
-        name: "refigrator",
-        qty: 5,
+        name: "kulkas",
+        qty: 1,
         imageUrl: "images/feature-7.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90aa16"),
-        name: "televion",
-        qty: 5,
+        name: "televisi",
+        qty: 1,
         imageUrl: "images/feature-8.png",
         itemId: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
       },
