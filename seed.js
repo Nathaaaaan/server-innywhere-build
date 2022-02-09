@@ -140,7 +140,7 @@ var data = [
       {
         // done
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902223"),
-        title: "Seattle Rain",
+        title: "Mekarrahayu House",
         price: 450000,
         sumBooking: 2,
         country: "Indonesia",
