@@ -329,7 +329,7 @@ var data = [
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902227"),
         title: "Podo Wae",
-        price: 19000,
+        price: 190000,
         sumBooking: 6,
         country: "Indonesia",
         city: "Bogor",
@@ -375,14 +375,14 @@ var data = [
       // Silver Rain
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902228"),
-        title: "Silver Rain",
+        title: "Lumbung Salak",
         price: 300000,
         sumBooking: 7,
         country: "Indonesia",
         city: "Bogor",
         isPopular: false,
         description:
-          "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+          "Ketika Anda memilih Bogor sebagai tujuan destinasi wisata, pertimbangkan untuk menginap di tempat kami, yaitu Lumbung Salak. Lumbung Salak berada di lokasi yang berdekatan dengan objek wisata yang berbeda dari biasanya. Anda dapat mengunjungi kampung adat tertua di kota hujan ini, yaitu Sindangbarang di Ciapus, Tamansari. Traveler yang memasuki perkampungan ini, akan menyaksikan Imah Gede, bangunan adat yang difungsikan sebagai tempat berkumpul, bermusyawarah para tetua adat. Selain Imah Gede, Anda juga akan disajikan dengan pemandangan ruma tradisional Sunda yang difungsikan sebagai lumbung padi, dengan ukuran rumah lebih kecil, tanpa pintu dan memiliki jendela di atasnya.",
         unit: "malam",
         imageId: [
           // done
