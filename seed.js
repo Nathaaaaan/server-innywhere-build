@@ -187,7 +187,7 @@ var data = [
       // Wodden Pit
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902224"),
-        title: "Wodden Pit",
+        title: "Green Hill",
         price: 300000,
         sumBooking: 3,
         country: "Indonesia",
@@ -422,7 +422,7 @@ var data = [
       // Cashville
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902229"),
-        title: "Cashville",
+        title: "Arga Turangga",
         price: 260000,
         sumBooking: 8,
         country: "Indonesia",
@@ -469,14 +469,14 @@ var data = [
       // PS Wood
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902230"),
-        title: "PS Wood",
+        title: "Omah Silir",
         price: 320000,
         sumBooking: 9,
         country: "Indonesia",
         city: "Yogyakarta",
         isPopular: false,
         description:
-          "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+          "Omah Silir berada di lokasi yang berdekatan dengan salah satu tempat wisata budaya di Jogjakarta, yaitu Puro Pakualaman. Saat ini, kawasan Pakualaman dijadikan Kawasan Cagar Budaya dengan potensi wisata budaya meliputi seni karawitan, Jemparingan (panahan tradisional), kerajinan batik tulis motif khas Puro Pakualaman, kerajinan berbahan dasar bambu, dan sebagainya. Hal ini pastinya sangat menarik bagi wisatawan, dan menjadikan Omah Silir sebagai tempat beristirahat terdekat dari Puro Pakualaman akan menjadi keputusan yang tepat.",
         unit: "malam",
         imageId: [
           // done
@@ -516,14 +516,14 @@ var data = [
       // One Five
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902231"),
-        title: "One Five",
-        price: 500000,
+        title: "Nglaras Ayem",
+        price: 300000,
         sumBooking: 11,
         country: "Indonesia",
         city: "Yogyakarta",
         isPopular: false,
         description:
-          "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+          "Salah satu tempat yang patut dikunjungi jika kita berkunjung ke Jogjakarta adalah Pasar Ngasem. Pasar ini dianggap istimewa karena daerah Ngasem pada zaman dahulu merupakan danai miliki keluarga kerajaan berdasarkan publikasi dari Dinas Pariwisata Daerah Istimewa Yogyakarta. Untuk itu, Nglaras Ayem adalah tempat yang tepat sebagai pilihan bermalam Anda karena berlokasi strategis, dan salah satunya dekat dengan Pasar Ngasem. Anda akan dipermudah untuk mengakses berbagai tempat wisata budaya lainnya karena lokasinya yang begitu strategis.",
         unit: "malam",
         imageId: [
           // done
@@ -563,14 +563,14 @@ var data = [
       // Minimal
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902232"),
-        title: "Minimal",
-        price: 480000,
+        title: "Ethes House",
+        price: 280000,
         sumBooking: 13,
         country: "Indonesia",
         city: "Yogyakarta",
         isPopular: false,
         description:
-          "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+          "Ethes House berlokasi di wilayah Candi Ijo, dimana pada wilayah tersebut banyak pilihan kunjungan wisata menarik, salah satunya adalah Tebing Breksi. Bagi anda penikmat pemandangan indah, wajib hukumnya untuk mengunjungi Tebing Breksi. Sajian visual yang begitu indah akan memanjakan penglihatan anda dan membuat anda lupa akan penatnya kehidupan sejenak.",
         unit: "malam",
         imageId: [
           // done
@@ -610,14 +610,14 @@ var data = [
       // Stays Home
       {
         _id: mongoose.Types.ObjectId("5e96cbe292b97300fc902233"),
-        title: "Stays Home",
+        title: "Roomy Room",
         price: 220000,
         sumBooking: 14,
         country: "Indonesia",
         city: "Yogyakarta",
         isPopular: false,
         description:
-          "Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.",
+          "Roomy Room berlokasi di wilayah Candi Ijo, dimana pada wilayah tersebut banyak pilihan kunjungan wisata menarik, salah satunya adalah Tebing Breksi. Bagi anda penikmat pemandangan indah, wajib hukumnya untuk mengunjungi Tebing Breksi. Sajian visual yang begitu indah akan memanjakan penglihatan anda dan membuat anda lupa akan penatnya kehidupan sejenak.",
         unit: "malam",
         imageId: [
           { _id: mongoose.Types.ObjectId("5e96cbe292b97300fc90cd36") },
